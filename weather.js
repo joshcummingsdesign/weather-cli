@@ -39,6 +39,7 @@ var request = http.get('http://maps.googleapis.com/maps/api/geocode/json?address
             response.on('end', function(){
               try {
                 var data = JSON.parse(body);
+                // Get this week's weather
                 var report = data.daily.summary;
                 console.log(report);
               } catch(error) {
