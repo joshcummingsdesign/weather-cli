@@ -2,7 +2,7 @@
 A small node.js application that allows you to get the weather from the command line.
 
 ## Requirements
-[Node.js](https://nodejs.org/en/)
+[Node.js](https://nodejs.org/)
 
 ## Setup
 1. Get an api key from [Forecast.io](https://developer.forecast.io/)
